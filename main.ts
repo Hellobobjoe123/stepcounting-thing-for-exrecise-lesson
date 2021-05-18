@@ -1,3 +1,4 @@
+namespace Timer(){
 let seconds = 0;
 input.onGesture(Gesture.Shake, () => {
     while (seconds > 0) {
@@ -7,3 +8,4 @@ input.onGesture(Gesture.Shake, () => {
     }
    
 })
+}
